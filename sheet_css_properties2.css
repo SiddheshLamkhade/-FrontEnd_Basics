@@ -1,0 +1,63 @@
+.container{
+    display: flex;   
+    flex-wrap: wrap;
+    border: 0.3dvw solid rgb(105, 26, 17);
+    box-shadow: inset 7px 4px 20px 4px rebeccapurple;
+    height:auto;
+    width: auto;
+    align-content:flex-start;
+    justify-content:flex-start;
+    gap: 1dvw 1dvh;
+}
+.item{
+    border:0.5dvw solid rgba(77, 5, 5, 0.922);
+    height: 9dvh;
+    width: 11dvw;
+    margin: 3dvw;
+    box-shadow: 11px 7px 6px 0px #d9cccc;
+}
+
+.container2{
+    border: 0.6dvw solid rgb(1, 120, 98);
+    margin: 6dvh 1dvw;
+    display: grid;
+    grid-template-rows: 5dvw 6dvw 9dvw 5dvw 6dvw 9dvw;
+    gap:78px;
+    height: auto;
+    grid-template-columns: 6dvh 3dvh 4dvh 6dvh;
+    background-image: url(images/siddhesh\ selfi.png);
+    background-repeat: no-repeat;
+   
+}
+.ite{
+    border:0.5dvw solid rgba(113, 11, 202, 0.922);
+    height: 9dvh;
+    width: 11dvw;
+    margin: 3dvw;
+    
+}
+.ite1{
+    transition-property: transform;
+    transition-duration:3s;
+    transition-timing-function:cubic-bezier(0, 0.36, 0.35, 1.39);
+    transition-delay:0ms;
+    transform: rotateZ(-29deg);
+}
+
+
+.ite2{
+    animation-name:sid,sidsec;
+    animation-duration:3s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:forwards; 
+    animation-direction:alternate-reverse;
+}
+img{    
+    filter: blur(1px);
+    filter: contrast(16.5);
+    filter: drop-shadow(5px 8px 9px black);
+    position: relative;
+    z-index:0;
+}
+}

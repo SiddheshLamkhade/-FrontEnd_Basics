@@ -1,0 +1,153 @@
+/*Internal CSS-id selector*/
+#boxlegend {
+    color: rgba(4, 1, 21, 0.93);
+    background-color: rgba(203, 178, 178, 0.389);
+
+    font-size:26px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 999;
+    font-style: normal;
+
+    text-align:center;
+    text-decoration: underline rgba(112, 93, 206, 0.651);
+    text-decoration-thickness: 4px;
+    text-decoration-style: dashed;
+    height: 37dvm;
+    border:1.3mm solid rgb(255, 0, 0);
+    box-sizing: border-box;
+    word-break: keep-all;
+    text-overflow: clip;
+    box-shadow:12px 5px 25px rgb(68, 1, 255);
+
+
+  }
+
+  /*Internal CSS-Class selector*/
+  .box1 {
+    background-color: aqua;
+    height: 204vm;
+    color: rgb(226, 43, 43);
+    padding: 145vm;
+    margin: 32px;
+    border:0.4dvw solid blue;
+    box-shadow:12px 5px 25px red;
+    box-sizing: border-box;
+    line-height: 182%;
+  }
+  .box {
+    background-color: aqua;
+
+    color: rgb(226, 43, 43) !important;
+
+    margin: 32px;
+    border:0.8mm solid blue;
+    box-shadow:12px 5px 25px red;
+    outline: 3px solid rgb(244, 206, 21);
+    outline-offset:3px;
+  }
+
+  #field{margin: 1dvb; auto;}
+
+  .boxdisplay{
+    display: inline-block;
+    border:0.3dvw solid rgb(98, 45, 45);
+    width: 35dvw;
+    margin: 1dvw;
+    text-align:center;
+    box-shadow:12px 5px 25px red;
+    text-shadow: 2px 3px 5px aqua;
+  }
+
+  /*Internal CSS-Child selector*/
+  fieldset nav ul {
+                     display:flex;
+                     border: 2px solid black;
+                     background-color: aqua;
+                    }
+  fieldset nav ul li{
+      list-style-position: inside;
+      list-style-type:"🙉";
+      height:5%;
+      padding: 3px;
+      border: 3px;
+      width: 56%;}
+
+  .overflowdiv{
+               height: 19dvh;
+               width:66dvw;
+               margin:5dvh auto;
+               text-overflow: clip;
+               overflow:auto;
+               border: 4px solid rgba(49, 50, 42, 0.337);
+               text-indent:5dvw;
+               word-wrap:inherit;
+              }
+
+  .allbox{height: 133px;
+          width: 8dvw;
+         display: inline;
+         padding:3px;
+         margin:3px;
+         border: 2px solid rgb(16, 16, 16);
+        box-shadow: 2px 2px 2px red;}
+      
+  .bigbox{
+    height: 19dvh;
+    width: 96dvw;
+    border: 3px solid rgb(242, 13, 13);
+    margin: 2dvw auto;
+    position: relative;
+  }
+  .b1{
+      position:sticky;
+      top:0dvw;
+      left: 0dvw;
+      background-color: rgb(139, 221, 221);
+      z-index: 1;
+  }
+  .b2{
+    background-color: aqua;
+    position:fixed;
+    word-wrap: break-word;
+    height: auto;
+    width: 1dvw;
+    left:0dvw;
+    top:18dvh;
+    z-index:1000;
+    box-shadow: none;
+    animation-name:sid,sidsec;
+    animation-duration:3s;
+    animation-iteration-count: 6;
+    animation-direction:alternate-reverse;
+
+  }
+  .b3{
+    background-color: rgb(142, 236, 0);
+    position:absolute;
+    height: auto;
+    width: auto;
+    top:0dvh;
+    left: 56dvw;
+    z-index: 2;
+  }
+  .b4{
+    background-color: rgb(193, 193, 193);
+    position: relative;
+    left: 56dvw;
+    top: 0dvh;
+    display: inline-block !important;
+    width:13%;
+    height:auto;
+  }   
+  .posi{
+    text-align : center;
+    position : relative;
+    top : 1dvw;
+    font-size:29px;
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-decoration: dashed;
+    font-weight:999;
+    color:rgba(15, 8, 236, 0.852);
+    text-shadow:1px 2px 15px red;
+    
+  }
